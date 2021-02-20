@@ -1,8 +1,11 @@
 #pragma once
+#define NOMINMAX
+
 #include <Winsock2.h>
 #include <Mswsock.h>
 #include <vector>
 #include <set>
+#include <unordered_map>
 #include <iostream>
 #include <tchar.h>
 #include <ws2tcpip.h>
